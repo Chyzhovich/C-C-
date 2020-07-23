@@ -33,7 +33,9 @@ public:
 	void print()
 	{
 		cout << "Color is: " << m_color << " " << "Radius is: " << m_radius << endl;
-	}
+	}]
+	Ball(const Ball& other);
+
 };
 
 int main()
