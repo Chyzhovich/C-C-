@@ -34,7 +34,8 @@ public:
 	{
 		cout << "Color is: " << m_color << " " << "Radius is: " << m_radius << endl;
 	}]
-	Ball(const Ball& other);
+	Ball(const Ball& copy){};
+	Ball& operator=(const Ball &other){};
 
 };
 
