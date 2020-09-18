@@ -33,11 +33,14 @@ public:
 	void print()
 	{
 		cout << "Color is: " << m_color << " " << "Radius is: " << m_radius << endl;
-	}]
+	}
 	Ball(const Ball& copy){};
 	Ball& operator=(const Ball &other){};
 
 };
+void print_branch()const{
+	cout<<"I ctreate branch number 2<<endl;
+}
 
 int main()
 {
